@@ -32,7 +32,7 @@ class Planet {
     this.elm.style.height = `${this.dia}px`;
     this.elm.classList.add("planet");
     this.orbit.classList.add("orbit");
-    this.elm.style.backgroundImage = `url('../img/${this.url}')`;
+    this.elm.style.backgroundImage = `url('/img/${this.url}')`;
     document.body.append(this.elm, this.orbit);
   }
   isOrbiting() {
